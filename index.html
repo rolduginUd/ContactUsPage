@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/customSelect.css">
 </head>
 
 <body>
@@ -23,7 +24,22 @@
                 <input type="text" placeholder="Practice / Institution*">
                 <input type="text" placeholder="Email Address*">
                 <input type="text" placeholder="Phone Number*">
-                <input type="text" placeholder="_____">
+
+                <div class="select-wrapper">
+                    <div class="select">
+                        <div class="select__trigger"><span>Medical Profession*</span>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="custom-options">
+                            <span class="custom-option selected" data-value="option1">Option 1</span>
+                            <span class="custom-option" data-value="option2">Option 2</span>
+                            <span class="custom-option" data-value="option3">Option 3</span>
+                            <span class="custom-option" data-value="option4">Option 4</span>
+                            <span class="custom-option" data-value="option5">Option 5</span>
+                        </div>
+                    </div>
+                </div>
+
                 <input type="text" id="inquiryInput" placeholder="Type of Inquiry*">
 
                 <textarea name="message" placeholder="Enter Message*"></textarea>

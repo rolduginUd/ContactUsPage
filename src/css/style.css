@@ -135,7 +135,8 @@ footer {
 	input,
 	#inquiryInput,
 	textarea,
-	.contactHead {
+	.contactHead,
+	.select-wrapper {
 		width: 100%;
 	}
 	.container {
