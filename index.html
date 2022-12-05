@@ -7,14 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
 </head>
 
 <body>
     <div class="container">
         <section class="formSection">
-            <div>
+            <div class="contactHead">
                 <h1>Contact Us</h1>
                 <p>The Voodoo team is looking forward to hearing from you!</p>
             </div>
@@ -29,20 +27,25 @@
                 <input type="text" id="inquiryInput" placeholder="Type of Inquiry*">
 
                 <textarea name="message" placeholder="Enter Message*"></textarea>
+
+                <button class="submit">Send Message</button>
             </div>
         </section>
 
         <section class="mapContainer">
-            <!-- <div id="map"></div> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28751.35209162378!2d30.44129828503158!3d50.43580113666978!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc04cbc3eb13%3A0xb35c62c866be9548!2z0L_QsNGA0Log0JLRltC00YDQsNC00L3QuNC5!5e0!3m2!1sru!2sua!4v1670232862859!5m2!1sru!2sua"
+             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-    </div>
-    <script src="src/js/main.js"></script>
 
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-        defer>
-    </script>
         
+    </div>
+
+    <footer>
+        All rights
+    </footer>
+
+
+    <script src="src/js/main.js"></script>
 </body>
 
 </html>
