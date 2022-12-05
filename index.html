@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
 </head>
 
 <body>
@@ -18,17 +20,29 @@
             </div>
 
             <div class="inputsContainer">
-                <input type="text" placeholder="123">
-                <input type="text" placeholder="123">
-                <input type="text" placeholder="123">
-                <input type="text" placeholder="123">
+                <input type="text" placeholder="Full Name*">
+                <input type="text" placeholder="Title/Position*">
+                <input type="text" placeholder="Practice / Institution*">
+                <input type="text" placeholder="Email Address*">
+                <input type="text" placeholder="Phone Number*">
+                <input type="text" placeholder="_____">
+                <input type="text" id="inquiryInput" placeholder="Type of Inquiry*">
+
+                <textarea name="message" placeholder="Enter Message*"></textarea>
             </div>
         </section>
 
         <section class="mapContainer">
-            <p>Карта</p>
+            <!-- <div id="map"></div> -->
         </section>
     </div>
+    <script src="src/js/main.js"></script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        defer>
+    </script>
+        
 </body>
 
 </html>
